@@ -6,45 +6,45 @@ import { benefitIcon1, benefitIcon2, benefitIcon3, benefitIcon4, benefitImage2 }
 
 const benefits = [
     {
-        title: "Ask anything",
-        text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+        title: "SAP Solution service",
+        text: "SAP Business One is a complete end to end business solution for the small and mid-sized enterprises (SMEs).",
         backgroundUrl: "./src/assets/benefits/card-1.svg",
         iconUrl: benefitIcon1,
         imageUrl: benefitImage2,
     },
     {
-        title: "Improve everyday",
-        text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+        title: "SAP Consulting",
+        text: "SAP Business One is a complete end to end business solution for the small and mid-sized enterprises (SMEs).",
         backgroundUrl: "./src/assets/benefits/card-2.svg",
         iconUrl: benefitIcon2,
         imageUrl: benefitImage2,
         light: true,
     },
     {
-        title: "Connect everywhere",
-        text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+        title: "SAP Upgradation",
+        text: "SAP Business One is a complete end to end business solution for the small and mid-sized enterprises (SMEs).",
         backgroundUrl: "./src/assets/benefits/card-3.svg",
         iconUrl: benefitIcon3,
         imageUrl: benefitImage2,
     },
     {
-        title: "Fast responding",
-        text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+        title: "SAP Business One Cloud",
+        text: "SAP Business One is a complete end to end business solution for the small and mid-sized enterprises (SMEs).",
         backgroundUrl: "./src/assets/benefits/card-4.svg",
         iconUrl: benefitIcon4,
         imageUrl: benefitImage2,
         light: true,
     },
     {
-        title: "Ask anything",
-        text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+        title: "SAP Business One HANA Solution",
+        text: "SAP Business One is a complete end to end business solution for the small and mid-sized enterprises (SMEs).",
         backgroundUrl: "./src/assets/benefits/card-5.svg",
         iconUrl: benefitIcon1,
         imageUrl: benefitImage2,
     },
     {
-        title: "Improve everyday",
-        text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+        title: "SAP Support",
+        text: "SAP Business One is a complete end to end business solution for the small and mid-sized enterprises (SMEs).",
         backgroundUrl: "./src/assets/benefits/card-6.svg",
         iconUrl: benefitIcon2,
         imageUrl: benefitImage2,
@@ -55,7 +55,7 @@ const Benefits = () => {
     return (
         <Section id="features">
             <div className="container relative z-2">
-                <Heading className="md:max-w-md lg:max-w-2xl" title="Chat Smarter, Not Harder with OpenAI" />
+                <Heading className="md:max-w-md lg:max-w-2xl" title="Our services are listed below" />
 
                 <div className="flex flex-wrap gap-10 mb-10">
                     {benefits.map((item, i) => (
