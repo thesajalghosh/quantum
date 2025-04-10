@@ -14,7 +14,7 @@ const App = () => {
                 <Navbar />
                 <Hero />
                 <Benefits />
-                <Collaboration />
+                {/* <Collaboration /> */}
                 {/* <Services /> */}
                 {/* <Pricing /> */}
                 <Roadmap />

@@ -1,6 +1,6 @@
 // Hero Section
 export { default as curve } from './hero/curve.png';
-export { default as robot } from './hero/robot.jpg';
+export { default as robot } from './hero/sapimage.jpg';
 export { default as heroBackground } from './hero/hero-background.jpg';
 
 // Collaboration Section
@@ -30,8 +30,8 @@ export { default as done } from './roadmap/done.svg';
 export { default as hero } from './roadmap/hero.png';
 export { default as roadmap1 } from './roadmap/roadmap1.png';
 export { default as roadmap2 } from './roadmap/roadmap2.png';
-export { default as roadmap3 } from './roadmap/image-3.png';
-export { default as roadmap4 } from './roadmap/image-4.png';
+export { default as roadmap3 } from './roadmap/roadmap3.png';
+export { default as roadmap4 } from './roadmap/roadmap4.png';
 export { default as undone } from './roadmap/undone.svg';
 
 // Notification Section
