@@ -100,43 +100,42 @@ const Header = () => {
                             onMouseLeave={() => setHovered(false)}
                         >
                             <div>
-                                <h4 className="font-semibold mb-2">SAP services</h4>
+                                <h4 className="font-semibold mb-2">SAP Solution or SAP Solution Services</h4>
                                 <ul className="space-y-1">
-                                    <li><a href="#">Document update</a></li>
-                                    <li><a href="#">Check Aadhaar Update Status</a></li>
-                                    <li><a href="#">Update Demographics Data</a></li>
-                                    <li><a href="#">Enrolment & Update Forms</a></li>
-                                    <li><a href="#">Aadhaar Update History</a></li>
-                                    <li><a href="#">Update Aadhaar at Center</a></li>
+                                    <li><a href="#">SAP Business One Implementation & Consulting</a></li>
+                                    <li><a href="#">SAP Consulting</a></li>
+                                    <li><a href="#">SAP Support</a></li>
+                                    <li><a href="#">SAP Upgradation</a></li>
+                                    <li><a href="#">SAP Business One Cloud</a></li>
+                                    <li><a href="#">SAP Business One HANA Solution</a></li>
                                 </ul>
                             </div>
                             <div>
-                                <h4 className="font-semibold mb-2">Oracle Services</h4>
+                                <h4 className="font-semibold mb-2">Oracle</h4>
                                 <ul className="space-y-1">
-                                    <li><a href="#">Book an Appointment</a></li>
-                                    <li><a href="#">Download Aadhaar</a></li>
-                                    <li><a href="#">Order PVC Card</a></li>
-                                    <li><a href="#">Check PVC Card Status</a></li>
-                                    <li><a href="#">Locate Enrolment Center</a></li>
+                                    <li><a href="#">Oracle Database Services</a></li>
+                                    <li><a href="#">Database Migration Services</a></li>
+                                    <li><a href="#">Managed Oracle DBA Services</a></li>
                                 </ul>
                             </div>
                             <div>
-                                <h4 className="font-semibold mb-2">Linux Service</h4>
+                                <h4 className="font-semibold mb-2">OS Services</h4>
                                 <ul className="space-y-1">
-                                    <li><a href="#">Verify Aadhaar Number</a></li>
-                                    <li><a href="#">Retrieve Lost UID/EID</a></li>
-                                    <li><a href="#">Virtual ID Generator</a></li>
-                                    <li><a href="#">Bank Seeding Status</a></li>
-                                    <li><a href="#">Check Aadhaar Validity</a></li>
+                                    <li><a href="#">Linux Server Setup & Configuration</a></li>
+                                    <li><a href="#">System Administration & Maintenance</a></li>
+                                    <li><a href="#">Performance Tuning & Optimization</a></li>
+                                    <li><a href="#">Migration, Patching, Upgrade</a></li>
                                 </ul>
                             </div>
                             <div>
-                                <h4 className="font-semibold mb-2">AWS services</h4>
+                                <h4 className="font-semibold mb-2">AWS Cloud Services</h4>
                                 <ul className="space-y-1">
-                                    <li><a href="#">Features of Aadhaar</a></li>
-                                    <li><a href="#">Usage of Aadhaar</a></li>
-                                    <li><a href="#">Security in UIDAI</a></li>
-                                    <li><a href="#">Aadhaar Myth Busters</a></li>
+                                    <li><a href="#">AWS Deployment & Management</a></li>
+                                    <li><a href="#">AWS Security</a></li>
+                                    <li><a href="#">AWS Cost Optimization</a></li>
+                                    <li><a href="#">AWS Managed Services</a></li>
+                                    <li><a href="#">AWS Support</a></li>
+                                    <li><a href="#">AWS Migration</a></li>
                                 </ul>
                             </div>
                       
