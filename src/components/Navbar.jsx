@@ -82,8 +82,8 @@ const Header = () => {
                                 key={item.id}
                                 href={item.url}
                                 onClick={handleClick}
-                                onMouseEnter={() => item.id === "0" && setHovered(true)}
-                                onMouseLeave={() => item.id === "0" && setHovered(false)}
+                                onMouseEnter={() => item.id === "1" && setHovered(true)}
+                                onMouseLeave={() => item.id === "1" && setHovered(false)}
                                 className={`block relative font-code text-2xl uppercase text-white transition-colors hover:text-color-1 ${item.onlyMobile ? "lg:hidden" : ""} px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
                                     item.url === pathname.hash ? "z-2 lg:text-white" : "lg:text-white/50"
                                 } lg:leading-5 lg:hover:text-white xl:px-12`}
