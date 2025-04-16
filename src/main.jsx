@@ -28,7 +28,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                     <Route path="/about-us" element={<AboutUs />} />
                     <Route path="/career" element={<Career />} />
 
-                    // All sap routes
+                  
                     <Route path="/services/sap-business" element={<SapBusiness />} />
                     <Route path="/services/sap-consulting" element={<SapConsulting />} />
                     <Route path="/services/sap-support" element={<SapSupport />} />
